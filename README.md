@@ -6,8 +6,11 @@ node --version
 npm --version
 en, Vscode, instalar el plugin: Playwright Test for VSCode
 py -m venv .\venv\ 
-.\venv\Scripts\activate  
+.\venv\Scripts\activate
+pip install pytest
 pip install pytest-playwright
 playwright install
 Actualizar: pip install pytest-playwright playwright -U
+Execute:
+pytest 
 ```
